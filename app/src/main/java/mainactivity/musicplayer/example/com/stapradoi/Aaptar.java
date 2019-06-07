@@ -39,96 +39,96 @@ public class Aaptar extends RecyclerView.Adapter<ClicVievHolder> {
             public void onClick(View view, int position, boolean isLongClick) {
                 switch (position) {
                     case 0:
-                        started = true;
+                        started = false;
                         Start();
                         clicVievHolder.setTatel("Play");
                         clicVievHolder.setImageView4(R.drawable.play);
                         break;
                     case 1:
                         if (started){
-                            started = true;
-                            clicVievHolder.setTatel("Play");
-                            clicVievHolder.setImageView4(R.drawable.play);
-                        }else {
                             started = false;
                             clicVievHolder.setTatel("Stop");
+                            clicVievHolder.setImageView4(R.drawable.paus);
+                        }else {
+                            started = true;
+                            clicVievHolder.setTatel("Play");
                             clicVievHolder.setImageView4(R.drawable.play);
                         }
                         break;
                     case 2:
                         if (started){
-                            started = true;
-                            clicVievHolder.setTatel("Play");
-                            clicVievHolder.setImageView4(R.drawable.play);
-                        }else {
                             started = false;
                             clicVievHolder.setTatel("Stop");
+                            clicVievHolder.setImageView4(R.drawable.paus);
+                        }else {
+                            started = true;
+                            clicVievHolder.setTatel("Play");
                             clicVievHolder.setImageView4(R.drawable.play);
                         }
                         break;
                     case 3:
                         if (started){
-                            started = true;
-                            clicVievHolder.setTatel("Play");
-                            clicVievHolder.setImageView4(R.drawable.play);
-                        }else {
                             started = false;
                             clicVievHolder.setTatel("Stop");
+                            clicVievHolder.setImageView4(R.drawable.paus);
+                        }else {
+                            started = true;
+                            clicVievHolder.setTatel("Play");
                             clicVievHolder.setImageView4(R.drawable.play);
                         }
                         break;
                     case 4:
                         if (started){
-                            started = true;
-                            clicVievHolder.setTatel("Play");
-                            clicVievHolder.setImageView4(R.drawable.play);
-                        }else {
                             started = false;
                             clicVievHolder.setTatel("Stop");
+                            clicVievHolder.setImageView4(R.drawable.paus);
+                        }else {
+                            started = true;
+                            clicVievHolder.setTatel("Play");
                             clicVievHolder.setImageView4(R.drawable.play);
                         }
                         break;
                     case 5:
                         if (started){
-                            started = true;
-                            clicVievHolder.setTatel("Play");
-                            clicVievHolder.setImageView4(R.drawable.play);
-                        }else {
                             started = false;
                             clicVievHolder.setTatel("Stop");
+                            clicVievHolder.setImageView4(R.drawable.paus);
+                        }else {
+                            started = true;
+                            clicVievHolder.setTatel("Play");
                             clicVievHolder.setImageView4(R.drawable.play);
                         }
                         break;
                     case 6:
                         if (started){
-                            started = true;
-                            clicVievHolder.setTatel("Play");
-                            clicVievHolder.setImageView4(R.drawable.play);
-                        }else {
                             started = false;
                             clicVievHolder.setTatel("Stop");
+                            clicVievHolder.setImageView4(R.drawable.paus);
+                        }else {
+                            started = true;
+                            clicVievHolder.setTatel("Play");
                             clicVievHolder.setImageView4(R.drawable.play);
                         }
                         break;
                     case 7:
                         if (started){
-                            started = true;
-                            clicVievHolder.setTatel("Play");
-                            clicVievHolder.setImageView4(R.drawable.play);
-                        }else {
                             started = false;
                             clicVievHolder.setTatel("Stop");
+                            clicVievHolder.setImageView4(R.drawable.paus);
+                        }else {
+                            started = true;
+                            clicVievHolder.setTatel("Play");
                             clicVievHolder.setImageView4(R.drawable.play);
                         }
                         break;
                     case 8:
                         if (started){
-                            started = true;
-                            clicVievHolder.setTatel("Play");
-                            clicVievHolder.setImageView4(R.drawable.play);
-                        }else {
                             started = false;
                             clicVievHolder.setTatel("Stop");
+                            clicVievHolder.setImageView4(R.drawable.paus);
+                        }else {
+                            started = true;
+                            clicVievHolder.setTatel("Play");
                             clicVievHolder.setImageView4(R.drawable.play);
                         }
                         break;
@@ -140,48 +140,48 @@ public class Aaptar extends RecyclerView.Adapter<ClicVievHolder> {
         switch (position) {
             case 0:
                 clicVievHolder.setImage(R.drawable.sp1);
-                clicVievHolder.setImageView4(R.drawable.paus);
-                clicVievHolder.setTatel("Microsoft");
+                clicVievHolder.setImageView4(R.drawable.stop);
+                clicVievHolder.setTatel("Loading");
                 break;
             case 1:
                 clicVievHolder.setImage(R.drawable.sp2);
-                clicVievHolder.setImageView4(R.drawable.paus);
-                clicVievHolder.setTatel("Point");
+                clicVievHolder.setImageView4(R.drawable.stop);
+                clicVievHolder.setTatel("Loading");
                 break;
             case 2:
                 clicVievHolder.setImage(R.drawable.sp3);
-                clicVievHolder.setImageView4(R.drawable.paus);
-                clicVievHolder.setTatel("Drave");
+                clicVievHolder.setImageView4(R.drawable.stop);
+                clicVievHolder.setTatel("Loading");
                 break;
             case 3:
                 clicVievHolder.setImage(R.drawable.sp4);
-                clicVievHolder.setImageView4(R.drawable.paus);
-                clicVievHolder.setTatel("Cortana");
+                clicVievHolder.setImageView4(R.drawable.stop);
+                clicVievHolder.setTatel("Loading");
                 break;
             case 4:
                 clicVievHolder.setImage(R.drawable.sp5);
-                clicVievHolder.setImageView4(R.drawable.paus);
-                clicVievHolder.setTatel("Excel");
+                clicVievHolder.setImageView4(R.drawable.stop);
+                clicVievHolder.setTatel("Loading");
                 break;
             case 5:
                 clicVievHolder.setImage(R.drawable.sp6);
-                clicVievHolder.setImageView4(R.drawable.paus);
-                clicVievHolder.setTatel("Name");
+                clicVievHolder.setImageView4(R.drawable.stop);
+                clicVievHolder.setTatel("Loading");
                 break;
             case 6:
                 clicVievHolder.setImage(R.drawable.sp7);
-                clicVievHolder.setImageView4(R.drawable.paus);
-                clicVievHolder.setTatel("Macrisift");
+                clicVievHolder.setImageView4(R.drawable.stop);
+                clicVievHolder.setTatel("Loading");
                 break;
             case 7:
                 clicVievHolder.setImage(R.drawable.sp8);
-                clicVievHolder.setImageView4(R.drawable.paus);
-                clicVievHolder.setTatel("Info");
+                clicVievHolder.setImageView4(R.drawable.stop);
+                clicVievHolder.setTatel("Loading");
                 break;
             case 8:
                 clicVievHolder.setImage(R.drawable.sp9);
-                clicVievHolder.setImageView4(R.drawable.paus);
-                clicVievHolder.setTatel("Xbox");
+                clicVievHolder.setImageView4(R.drawable.stop);
+                clicVievHolder.setTatel("Loading");
                 break;
             default:
         }
@@ -226,7 +226,7 @@ public class Aaptar extends RecyclerView.Adapter<ClicVievHolder> {
             mediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
                 @Override
                 public void onPrepared(MediaPlayer mp) {
-                    Stop();
+                    mp.stop();
                 }
             });
         } catch (IOException e) {
